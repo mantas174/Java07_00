@@ -60,6 +60,27 @@ public class Main {
                 case ACTION_3:
                     obj.gaminkKava(KAVA_ESPRESSO);
                     break;
+                case ACTION_4:
+                    obj.plauti();
+                    break;
+                case ACTION_5:
+                    obj.pildykCukru();
+                    break;
+                case ACTION_6:
+                    obj.pildykVandeni();
+                    break;
+                case ACTION_7:
+                    obj.pildykKava();
+                    break;
+                case ACTION_8:
+                    System.out.println("Skipped");//nepadaryta
+                    break;
+                case ACTION_9:
+                    obj.parodykProduktuBusena();
+                    break;
+                case ACTION_10:
+                    obj.parodykAparatoBusena();
+                    break;
             }
         }
 
